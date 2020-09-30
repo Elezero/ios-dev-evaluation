@@ -3,13 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18005E3F2524CFEF00241F51 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18005E3E2524CFEE00241F51 /* ChatTableViewCell.swift */; };
+		18005E412524D27100241F51 /* UserChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18005E402524D27100241F51 /* UserChat.swift */; };
+		18005E432525031700241F51 /* InputValidations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18005E422525031700241F51 /* InputValidations.swift */; };
+		18B949A525244F3D00C1BA9F /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B949A425244F3D00C1BA9F /* ContactTableViewCell.swift */; };
 		18BCBA0E2524019400BC318E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCBA0D2524019400BC318E /* AppDelegate.swift */; };
 		18BCBA102524019400BC318E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCBA0F2524019400BC318E /* SceneDelegate.swift */; };
-		18BCBA122524019400BC318E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCBA112524019400BC318E /* ViewController.swift */; };
 		18BCBA152524019400BC318E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BCBA132524019400BC318E /* Main.storyboard */; };
 		18BCBA172524019900BC318E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BCBA162524019900BC318E /* Assets.xcassets */; };
 		18BCBA1A2524019900BC318E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BCBA182524019900BC318E /* LaunchScreen.storyboard */; };
@@ -25,13 +28,17 @@
 		18BCBA37252413A000BC318E /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCBA36252413A000BC318E /* Chat.swift */; };
 		18BCBA392524146800BC318E /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCBA382524146800BC318E /* ChatMessage.swift */; };
 		18BCBA3B252414E800BC318E /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BCBA3A252414E800BC318E /* Message.swift */; };
+		98CDE2BF2314F0556821A5D1 /* Pods_contacts_with_realtime_chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2EE6911D74E7F79C47C7327 /* Pods_contacts_with_realtime_chat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18005E3E2524CFEE00241F51 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		18005E402524D27100241F51 /* UserChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChat.swift; sourceTree = "<group>"; };
+		18005E422525031700241F51 /* InputValidations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputValidations.swift; sourceTree = "<group>"; };
+		18B949A425244F3D00C1BA9F /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
 		18BCBA0A2524019400BC318E /* contacts with realtime chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "contacts with realtime chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BCBA0D2524019400BC318E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18BCBA0F2524019400BC318E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18BCBA112524019400BC318E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18BCBA142524019400BC318E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18BCBA162524019900BC318E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18BCBA192524019900BC318E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,6 +55,9 @@
 		18BCBA36252413A000BC318E /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 		18BCBA382524146800BC318E /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
 		18BCBA3A252414E800BC318E /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		26E81F359AD4DCB4D3D01CDA /* Pods-contacts with realtime chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contacts with realtime chat.debug.xcconfig"; path = "Target Support Files/Pods-contacts with realtime chat/Pods-contacts with realtime chat.debug.xcconfig"; sourceTree = "<group>"; };
+		D2EE6911D74E7F79C47C7327 /* Pods_contacts_with_realtime_chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_contacts_with_realtime_chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E678974698421751B410E448 /* Pods-contacts with realtime chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contacts with realtime chat.release.xcconfig"; path = "Target Support Files/Pods-contacts with realtime chat/Pods-contacts with realtime chat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,17 +65,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98CDE2BF2314F0556821A5D1 /* Pods_contacts_with_realtime_chat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18B949A325244F1700C1BA9F /* tableViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18B949A425244F3D00C1BA9F /* ContactTableViewCell.swift */,
+				18005E3E2524CFEE00241F51 /* ChatTableViewCell.swift */,
+			);
+			path = tableViewControllers;
+			sourceTree = "<group>";
+		};
 		18BCBA012524019400BC318E = {
 			isa = PBXGroup;
 			children = (
 				18BCBA0C2524019400BC318E /* contacts with realtime chat */,
 				18BCBA0B2524019400BC318E /* Products */,
+				C41617F1A76F2B8C2819E96A /* Pods */,
+				1CC048038CCF6BC37A5D78E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +102,7 @@
 		18BCBA0C2524019400BC318E /* contacts with realtime chat */ = {
 			isa = PBXGroup;
 			children = (
+				18B949A325244F1700C1BA9F /* tableViewControllers */,
 				18BCBA33252412B000BC318E /* models */,
 				18BCBA302524106500BC318E /* functions */,
 				18BCBA21252401CA00BC318E /* viewControllers */,
@@ -97,7 +120,6 @@
 		18BCBA21252401CA00BC318E /* viewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				18BCBA112524019400BC318E /* ViewController.swift */,
 				18BCBA2425240A6600BC318E /* LoginViewController.swift */,
 				18BCBA2625240A8E00BC318E /* RegisterViewController.swift */,
 				18BCBA2825240A9C00BC318E /* ForgotPasswordViewController.swift */,
@@ -112,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				18BCBA312524107E00BC318E /* SessionFunctions.swift */,
+				18005E422525031700241F51 /* InputValidations.swift */,
 			);
 			path = functions;
 			sourceTree = "<group>";
@@ -123,8 +146,26 @@
 				18BCBA36252413A000BC318E /* Chat.swift */,
 				18BCBA382524146800BC318E /* ChatMessage.swift */,
 				18BCBA3A252414E800BC318E /* Message.swift */,
+				18005E402524D27100241F51 /* UserChat.swift */,
 			);
 			path = models;
+			sourceTree = "<group>";
+		};
+		1CC048038CCF6BC37A5D78E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2EE6911D74E7F79C47C7327 /* Pods_contacts_with_realtime_chat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C41617F1A76F2B8C2819E96A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26E81F359AD4DCB4D3D01CDA /* Pods-contacts with realtime chat.debug.xcconfig */,
+				E678974698421751B410E448 /* Pods-contacts with realtime chat.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18BCBA1E2524019900BC318E /* Build configuration list for PBXNativeTarget "contacts with realtime chat" */;
 			buildPhases = (
+				053DD81988DEDACEC727F532 /* [CP] Check Pods Manifest.lock */,
 				18BCBA062524019400BC318E /* Sources */,
 				18BCBA072524019400BC318E /* Frameworks */,
 				18BCBA082524019400BC318E /* Resources */,
+				F057B45933B496A918FDA7CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -194,6 +237,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		053DD81988DEDACEC727F532 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-contacts with realtime chat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F057B45933B496A918FDA7CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-contacts with realtime chat/Pods-contacts with realtime chat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-contacts with realtime chat/Pods-contacts with realtime chat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-contacts with realtime chat/Pods-contacts with realtime chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18BCBA062524019400BC318E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -202,15 +287,18 @@
 				18BCBA322524107E00BC318E /* SessionFunctions.swift in Sources */,
 				18BCBA37252413A000BC318E /* Chat.swift in Sources */,
 				18BCBA392524146800BC318E /* ChatMessage.swift in Sources */,
+				18005E432525031700241F51 /* InputValidations.swift in Sources */,
 				18BCBA2525240A6600BC318E /* LoginViewController.swift in Sources */,
+				18B949A525244F3D00C1BA9F /* ContactTableViewCell.swift in Sources */,
 				18BCBA2B25240AAE00BC318E /* ContactsViewController.swift in Sources */,
 				18BCBA2D25240AC400BC318E /* ChatViewController.swift in Sources */,
 				18BCBA2725240A8E00BC318E /* RegisterViewController.swift in Sources */,
+				18005E412524D27100241F51 /* UserChat.swift in Sources */,
 				18BCBA2925240A9C00BC318E /* ForgotPasswordViewController.swift in Sources */,
-				18BCBA122524019400BC318E /* ViewController.swift in Sources */,
 				18BCBA0E2524019400BC318E /* AppDelegate.swift in Sources */,
 				18BCBA2F25240AD900BC318E /* NewContactViewController.swift in Sources */,
 				18BCBA102524019400BC318E /* SceneDelegate.swift in Sources */,
+				18005E3F2524CFEF00241F51 /* ChatTableViewCell.swift in Sources */,
 				18BCBA35252412C300BC318E /* User.swift in Sources */,
 				18BCBA3B252414E800BC318E /* Message.swift in Sources */,
 			);
@@ -354,6 +442,7 @@
 		};
 		18BCBA1F2524019900BC318E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26E81F359AD4DCB4D3D01CDA /* Pods-contacts with realtime chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -372,6 +461,7 @@
 		};
 		18BCBA202524019900BC318E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E678974698421751B410E448 /* Pods-contacts with realtime chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
